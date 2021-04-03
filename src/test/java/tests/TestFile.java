@@ -15,5 +15,8 @@ public class TestFile {
         $(".UnderlineNav-body").shouldHave(text("Code"));
         $(byText("Code")).click();
         $(".ml-md-3").shouldHave(text("1 commit"));
+        System.out.println("new line for commit 1");
+        System.out.println("new line for commit 2");
+        System.out.println("new line for commit 3");
     }
 }
